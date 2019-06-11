@@ -25,7 +25,7 @@ void loop()
   case 1: // Sensor getting wet
     Serial.println("Rain ALERT!!!");
     break;
-  case 2: // Sensor dry - To shut this up delete the " Serial.println("Not Raining"); " below.
+  case 2: 
     Serial.println("Not Raining");
     break;
   }
